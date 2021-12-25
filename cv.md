@@ -1,5 +1,7 @@
 # Kseniya Biarezina
 
+![Candidate photo](C:\Users\user-1\Documents\My CV project\rsschool-cv)\Photo.png
+
 +375 29 155-25-50  
 e-mail: ksenia-2010@tut.by  
 dicrord: Ksenia Biarez (@BiarezKseniya)

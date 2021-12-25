@@ -1,13 +1,13 @@
-#Kseniya Biarezina
+# Kseniya Biarezina
 
 +375 29 155-25-50
 e-mail: ksenia-2010@tut.by
 
-###Objective
+### Objective
 
 Extremely motivated for career change goal. Pursuing a junior front-end developer or front-end trainee position.
 
-##Education
+## Education
 
 **Franco-Belarussian Center for European Studies| MA European law**
 2016 – 2020
@@ -18,7 +18,7 @@ Extremely motivated for career change goal. Pursuing a junior front-end develope
 **University of Ljubljana| Student exchange program Erasmus+ Credit Mobility**
 2018 – 2019
 
-##Employment History
+## Employment History
 
 **Financial Analyst | JSC «MTBank»**
 2020 - 2022

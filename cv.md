@@ -1,9 +1,10 @@
 # Kseniya Biarezina
 
-+375 29 155-25-50
-e-mail: ksenia-2010@tut.by
++375 29 155-25-50  
+e-mail: ksenia-2010@tut.by  
+dicrord: Ksenia Biarez (@BiarezKseniya)
 
-### Objective
+## Objective
 
 Extremely motivated for career change goal. Pursuing a junior front-end developer or front-end trainee position.
 

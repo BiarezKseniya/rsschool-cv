@@ -9,21 +9,21 @@ Extremely motivated for career change goal. Pursuing a junior front-end develope
 
 ## Education
 
-**Franco-Belarussian Center for European Studies| MA European law**
+**Franco-Belarussian Center for European Studies| MA European law**  
 2016 – 2020
 
-**School of Business | BA Management and Economics**
+**School of Business | BA Management and Economics**  
 2016  – 2020
 
-**University of Ljubljana| Student exchange program Erasmus+ Credit Mobility**
+**University of Ljubljana| Student exchange program Erasmus+ Credit Mobility**  
 2018 – 2019
 
 ## Employment History
 
-**Financial Analyst | JSC «MTBank»**
+**Financial Analyst | JSC «MTBank»**  
 2020 - 2022
 
-**Content Developer (Contractor) | EPAM Systems**
+**Content Developer (Contractor) | EPAM Systems**  
 2019 -2021
 
 

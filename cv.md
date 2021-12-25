@@ -1,8 +1,8 @@
 # Kseniya Biarezina
 
-+375 29 155-25-50  
+p.n.: +375 29 155-25-50  
 e-mail: ksenia-2010@tut.by  
-dicrord: Ksenia Biarez (@BiarezKseniya)  
+discord: Ksenia Biarez (@BiarezKseniya)  
 
 ## Objective
 

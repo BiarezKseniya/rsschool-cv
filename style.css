@@ -9,10 +9,10 @@ nav {
     margin: 0;
 }
 nav ul {
-    display: flex;
-    margin: auto;
-    list-style: none;
-    padding: 0;
+    background-color: #C69AE4;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
     
 }
 

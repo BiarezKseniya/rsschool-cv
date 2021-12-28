@@ -33,7 +33,10 @@ nav ul li a:hover {
     text-decoration: underline;
     display: block;
    }
-
+main {
+    display: grid;
+    grid-template-columns: 380px 1fr;
+}
 #contacts ul {
     padding:0;
     list-style: none;

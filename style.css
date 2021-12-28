@@ -1,3 +1,7 @@
+:root {
+    font-family: Arial, sans-serif;
+}
+    
 nav {
     height: 3em;
     background-color: #C69AE4;
@@ -34,3 +38,14 @@ nav ul li a:hover {
     text-decoration: underline;
     display: block;
    }
+
+#contacts ul {
+    padding:0;
+    list-style: none;
+}
+#contacts ul li:before {
+    padding-right:10px;
+    font-weight: bold;
+    color: #77AEDB;
+    content: "\2606";
+}

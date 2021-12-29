@@ -1,5 +1,7 @@
 :root {
     font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5
 }
     
 nav {
@@ -47,7 +49,26 @@ nav ul li a:hover {
     text-decoration: underline;
     display: block;
    }
-main {
+
+.right-side {
+background-color:#D2CAF2;
+}
+
+
+#title h1 {
+font-size: 50px;
+font-weight: 600;
+margin: 0.83em;
+
+}
+
+#title p {
+    font-size: 20px;
+    margin: 2.2em;
+    }
+
+
+   main {
     display: grid;
     grid-template-columns: 380px 1fr;
 }

@@ -99,6 +99,18 @@ section ul li {
     list-style: none;
     padding: 1em 0;
 }
+
+
+.skills_list {
+    margin: 0 2.9em;
+    padding: 0;
+    columns: 2;
+}
+.skills_list li {
+    padding: 0.5em 0;
+    text-align: center;
+}
+
 footer {
     background-color: #C69AE4;
     display: grid;

@@ -10,13 +10,13 @@ main_wrapper{
 }
     
 nav {
-    background-color: #C69AE4;
+    background-color: #AEA0E6;
     padding: 0;
     margin: 0;
     overflow: hidden;
 }
 nav ul {
-    background-color: #C69AE4;
+    background-color: #AEA0E6;
     display: grid;
     grid-template-columns: repeat(7, 1fr);
     align-items: center;
@@ -55,7 +55,11 @@ nav ul li a:hover {
    }
 
 .right-side {
-background-color:#D2CAF2;
+background-color:#D2CAF2
+}
+
+.left-side {
+background-color:#C6BBF2
 }
 
 
@@ -90,7 +94,7 @@ margin: 0.83em;
 h2 {
     padding: 1em 2em;
     font-size: 24px;
-    background-color: #C69AE4;
+    background-color: #AEA0E6;
 }
 
 section p {
@@ -127,7 +131,7 @@ section a {
 }
 
 footer {
-    background-color: #C69AE4;
+    background-color: #AEA0E6;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-items: center;

@@ -63,32 +63,30 @@ background-color:#C6BBF2
 }
 
 
-#title h1 {
+h1 {
 font-size: 50px;
 font-weight: 600;
-margin: 0.83em;
+margin: 0.83em 0 0 0.83em;
 
 }
 
 #title p {
     font-size: 20px;
-    margin: 2.4em;
+    margin: 0.5em 0 1.5em 2.4em;
     }
 
 
-   main {
+ main {
     display: grid;
     grid-template-columns: 380px 1fr;
 }
 #contacts ul {
-    padding:0;
+    padding: 0;
     list-style: none;
 }
-#contacts ul li:before {
-    padding-right:10px;
-    font-weight: bold;
-    color: #77AEDB;
-    content: "\2606";
+
+#contacts ul li {
+    padding: 0 2.9em;
 }
 
 h2 {
@@ -100,6 +98,10 @@ h2 {
 section p {
 margin: 0 2.9em;
 }
+
+#about p {
+margin: 1em 2.9em;
+}
 section ul {
     list-style: none;
     padding: 0;
@@ -109,7 +111,9 @@ section ul li {
     padding: 1em 0;
 }
 
-
+span {
+    font-style: italic;
+}
 .skills_list {
     margin: 0 2.9em;
     padding: 0;
@@ -118,8 +122,15 @@ section ul li {
 .skills_list li {
     padding: 0.5em 0;
     text-align: center;
+    position: relative;
 }
 
+.skills_list li:before{
+    content: '✔';
+    position: absolute; 
+    color: rgb(85, 26, 139);
+    left: 3em;
+}
 pre {
     text-align: center;
 }
@@ -127,7 +138,12 @@ section a {
     text-decoration: none;
     margin: 1em 2.9em;
     display: block;
+    color: black;
+}
 
+section a:hover {
+    color: rgb(85, 26, 139);
+    text-decoration: underline;
 }
 
 footer {

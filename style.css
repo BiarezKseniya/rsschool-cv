@@ -30,7 +30,7 @@ nav ul li {
     text-align: center;
 }
 
-@media (max-width: 800px){
+@media (max-width: 950px){
     nav ul {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -78,8 +78,15 @@ margin: 0.83em 0 0 0.83em;
 
  main {
     display: grid;
-    grid-template-columns: 380px 1fr;
+    grid-template-columns: 1fr 2fr;
 }
+
+@media (max-width: 650px){
+    main {
+    grid-template-columns: repeat(1, 1fr);
+    }
+}
+
 #contacts ul {
     padding: 0;
     list-style: none;
@@ -122,15 +129,20 @@ span {
 .skills_list li {
     padding: 0.5em 0;
     text-align: center;
-    position: relative;
 }
 
-.skills_list li:before{
+.skills_list li::before {
     content: '✔';
-    position: absolute; 
-    color: rgb(85, 26, 139);
-    left: 3em;
+    color: rgb(85, 26, 139);    
+    padding-right: 7px;
 }
+
+@media (max-width: 768px) {
+    .skills_list {
+        columns: 1;
+    }
+    }
+
 pre {
     text-align: center;
 }

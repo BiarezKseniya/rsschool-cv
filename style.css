@@ -40,14 +40,13 @@ nav ul li {
 
 nav ul li a{
     text-decoration: none;
-    font: 18px Arial, sans-serif; 
+    font-size: 18px; 
     display: block;
     color: rgb(85, 26, 139);
 }
 
 nav ul li a:hover {
     text-decoration: underline;
-    display: block;
    }
 
 .right-side {
@@ -64,7 +63,7 @@ margin: 0.83em;
 
 #title p {
     font-size: 20px;
-    margin: 2.2em;
+    margin: 2.4em;
     }
 
 
@@ -83,6 +82,23 @@ margin: 0.83em;
     content: "\2606";
 }
 
+h2 {
+    padding: 1em 2em;
+    font-size: 24px;
+    background-color: #C69AE4;
+}
+
+section p {
+margin: 0 2.9em;
+}
+section ul {
+    list-style: none;
+    padding: 0;
+}
+section ul li {
+    list-style: none;
+    padding: 1em 0;
+}
 footer {
     background-color: #C69AE4;
     display: grid;

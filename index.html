@@ -6,24 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kseniya Biarezina CV</title>
     <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
 <div class="main_wrapper">
 <header>
-<nav>
-<ul>
-    <li><a href="#contacts">Conctacts</a></li>
-    <li><a href="#about">About me</a></li>
-    <li><a href="#education">Education</a></li>
-    <li><a href="#employment">Employment history</a></li>
-    <li><a href="#skills">Skills</a></li>
-    <li><a href="#code">Code example</a></li>
-    <li id="item7"><a href="#project">My first ptoject</a></li>
-</ul>  
-</nav>
+    <nav>
+        <button onClick="onMenuButtonClick()" class="menuButton"><img src="menu.png" alt="menu_button"></button>
+        <ul id="idUl">
+            <li><a href="#contacts">Conctacts</a></li>
+            <li><a href="#about">About me</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#employment">Employment history</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#code">Code example</a></li>
+            <li><a href="#project">My first ptoject</a></li>
+        </ul>  
+    </nav>
 </header>
 
-<main>
+<button id="idUpButton" onClick="onUpButtonClick()" class="upButton"><img src="arrow.png" alt="Go up"></button>
+
+<main onClick="onMainClick()">
 
 <div class="left-side">
 
@@ -105,14 +109,14 @@
 <section id="code">
 <h2>Code example</h2>
 <pre><code>
-    function multiply(a, b){
-        return a * b;
-      }
+function multiply(a, b) {
+    return a * b;
+}
 </code></pre>
 </section>     
 <section id="project">
 <h2>My first project</h2>
-<a href=" https://biarezkseniya.github.io/rsschool-cv/">Checkout the link >></a>
+<a href=" https://biarezkseniya.github.io/rsschool-cv/">Check out the link >></a>
 </section> 
 </div>
 
@@ -124,4 +128,7 @@
 </footer>
 <div>
 </body>
+
+<script src="myscripts.js"></script>
+
 </html>

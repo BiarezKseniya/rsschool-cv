@@ -99,6 +99,10 @@ margin: 0.83em 0 0 0.83em;
     grid-template-columns: 1fr 2fr;
 }
 
+.photo {
+    width: 100%;
+}
+
 .menuButton {
     background: none;
     border: none;

@@ -36,16 +36,14 @@ nav button {
 
 @media (max-width: 950px) {
     nav ul {
+        grid-template-columns: repeat(1, 1fr);
         display: none;
     }
 
     nav button {
         display: block;
     }
-
-    nav ul {
-        grid-template-columns: repeat(1, 1fr);
-    }
+        
     /*#item7 {
         grid-column: span 2;
     }*/
@@ -68,6 +66,10 @@ nav ul li a:hover {
 
 nav ul li:hover {
     background-color: #D2CAF2;
+}
+
+nav img {
+    height: 40px;
 }
 
 .right-side {
@@ -180,11 +182,17 @@ span {
     .skills_list {
         columns: 1;
     }
-    }
+}
 
-pre {
+.code {
     text-align: center;
 }
+
+pre {
+    display: inline-block;
+    text-align: left;
+}
+
 section a {
     text-decoration: none;
     margin: 1em 2.9em;
@@ -214,7 +222,7 @@ footer {
 footer > * {
     text-align: center;
     color: rgb(85, 26, 139);
-    font: 18px Arial, sans-serif;
+    font-size: 18px;
     padding: 1em;
     margin:0
 }

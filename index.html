@@ -6,13 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kseniya Biarezina CV</title>
     <link rel="stylesheet" href="style.css">
-    
 </head>
 <body>
 <div class="main_wrapper">
 <header>
     <nav>
-        <button onClick="onMenuButtonClick()" class="menuButton"><img src="menu.png" alt="menu_button"></button>
+        <button type="button" onclick="onMenuButtonClick()" class="menuButton"><img src="menu.png" alt="menu_button"></button>
         <ul id="idUl">
             <li><a href="#contacts">Conctacts</a></li>
             <li><a href="#about">About me</a></li>
@@ -21,28 +20,28 @@
             <li><a href="#skills">Skills</a></li>
             <li><a href="#code">Code example</a></li>
             <li><a href="#project">My first ptoject</a></li>
-        </ul>  
+        </ul>
     </nav>
 </header>
 
-<button id="idUpButton" onClick="onUpButtonClick()" class="upButton"><img src="arrow.png" alt="Go up"></button>
+<button type="button" id="idUpButton" onclick="onUpButtonClick()" class="upButton"><img src="arrow.png" alt="Go up"></button>
 
-<main onClick="onMainClick()">
+<main on-click="onMainClick()">
 
 <div class="left-side">
-<img src="photo.jpg" alt="Photo of Kseniya Biarezina" class="photo">   
-<section id="contacts"> 
-<h2>Contact me</h2>    
+<img src="photo.jpg" alt="Photo of Kseniya Biarezina" class="photo">
+<section id="contacts">
+<h2>Contact me</h2>
 <ul>
-<li>Phone: +375 29 155-25-50</li>  
-<li>E-mail: ksenia-2010@tut.by</li>  
+<li>Phone: +375 29 155-25-50</li>
+<li>E-mail: ksenia-2010@tut.by</li>
 <li>Kseniya Biarez (@BiarezKseniya)</li>
 <li>Address: Minsk, Belarus</li>
 </ul>
 </section>
 </div>
 
-<div class="right-side"> 
+<div class="right-side">
 
 <section id="title">
 <h1>Kseniya <br> Biarezina</h1>
@@ -51,8 +50,8 @@
 
 <section id="about">
 <h2>About me</h2>
-<p> I'm a young graduate working in a finance sphere for two years. Tired of repetitive work, 
-    I'm extremely motivated for career change goal. IT-sphere represents a 
+<p> I'm a young graduate working in a finance sphere for two years. Tired of repetitive work,
+    I'm extremely motivated for career change goal. IT-sphere represents a
     large field of project activity and infinite opportunities to learn something new and this is what appeals to me.
     Therefore, I decided to try my hand at Front-end.</p>
 <p> I've been learning HTML and CSS on different courses (LinkedIn mostly). Now I hope to boost my JavaScript skills.
@@ -61,17 +60,17 @@
 
 <section id="education">
 <h2>Education</h2>
-<ul> 
-<li>   
-<p><span>Franco-Belarussian Center for European Studies | MA European law</span></p>  
+<ul>
+<li>
+<p><span>Franco-Belarussian Center for European Studies | MA European law</span></p>
 <p>2016 – 2020</p>
 </li>
 <li>
-<p><span>School of Business | BA Management and Economics</span></p> 
+<p><span>School of Business | BA Management and Economics</span></p>
 <p>2016 – 2020</p>
 </li>
 <li>
-<p><span>University of Ljubljana | Student exchange program Erasmus+ Credit Mobility</span></p>  
+<p><span>University of Ljubljana | Student exchange program Erasmus+ Credit Mobility</span></p>
 <p>2018 – 2019</p>
 </li>
 </ul>
@@ -80,12 +79,12 @@
 <section id="employment">
 <h2>Employment History</h2>
 <ul>
-<li>   
-<p><span>Analyst | JSC «MTBank»</span></p> 
+<li>
+<p><span>Analyst | JSC «MTBank»</span></p>
 <p>2020 – 2022</p>
 </li>
 <li>
-<p><span>Content Developer (Contractor) | EPAM Systems</span></p> 
+<p><span>Content Developer (Contractor) | EPAM Systems</span></p>
 <p>2019 – 2021</p>
 </li>
 </ul>
@@ -94,14 +93,14 @@
 <section id="skills">
 <h2>Skills</h2>
 <ul class="skills_list">
-<li>HTML&CSS</li>
+<li>HTML&amp;CSS</li>
 <li>SQL</li>
 <li>Advanced Excel user</li>
 <li>English - Upper-Intermediate (B2)</li>
 <li>French - Advanced (C1)</li>
 <li>Spanish - Beginner (A1)</li>
-</ul>    
-</section> 
+</ul>
+</section>
 
 <section id="code">
 <h2>Code example</h2>
@@ -110,18 +109,18 @@ function multiply(a, b) {
     return a * b;
 }
 </code></pre></div>
-</section>     
+</section>
 <section id="project">
 <h2>My first project</h2>
-<a href=" https://biarezkseniya.github.io/rsschool-cv/">Checkout the link >></a>
-</section> 
+<a href=" https://biarezkseniya.github.io/rsschool-cv/">Checkout the link &gt;&gt;</a>
+</section>
 </div>
 
 </main>
 <footer>
-<p>&copy; 2021 by Kseniya Biarezina</p>    
+<p>&copy; 2021 by Kseniya Biarezina</p>
 <a href="https://github.com/BiarezKseniya">View my GitHub</a>
-<a href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg" alt="rs_school_logo" width=100></a>   
+<a href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg" alt="rs_school_logo" width=100></a>
 </footer>
 </div>
 <script src="myscripts.js"></script>

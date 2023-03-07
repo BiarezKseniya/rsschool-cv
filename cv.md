@@ -22,10 +22,14 @@ Extremely motivated for career change goal. Pursuing a junior front-end develope
 ## Employment History
 
 **Financial Analyst | JSC «MTBank»**  
-2020 - 2023
+2020 – 2023
 
 **Content Developer (Contractor) | EPAM Systems**  
-2019 -2021
+2019 – 2021
 
+## Courses
+
+**RSS School | Front-end Stage 0**
+2021 – 2022
 
 

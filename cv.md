@@ -29,7 +29,7 @@ Extremely motivated for career change goal. Pursuing a junior front-end develope
 
 ## Courses
 
-**RSS School | Front-end Stage 0**
+**RSS School | Front-end Stage 0**  
 2021 – 2022
 
 
